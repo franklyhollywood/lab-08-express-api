@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS users;
+
+
+CREATE TABLE users; (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    username VARCHAR NOT NULL,
+    favorite_moviecamera VARCHAR NOT NULL
+    
+)
